@@ -41,21 +41,10 @@
       </plugin>
     </plugins>
   </build>
-  <servers>
-    <server>
+  <repositories>
+    <repository>
       <id>MIS09</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-    <server>
-      <id>nexus-snapshots</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-    <server>
-      <id>nexus-releases</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-  </servers>
+      <url>http://localhost:8081/repository/MIS09/</url>
+    </repository>
+  </repositories>
 </project>
