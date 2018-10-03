@@ -5,6 +5,7 @@ pipeline {
             steps {
                 bat "mvn -version"
                 bat 'mvn -B -DskipTests clean package'
+                bat 'mvn archetype:compile'
                 bat 'mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp'
             }
         }
