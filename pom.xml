@@ -7,23 +7,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <servers>
-    <server>
-      <id>MIS09</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-    <server>
-      <id>nexus-snapshots</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-    <server>
-      <id>nexus-releases</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-  </servers>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -58,4 +41,21 @@
       </plugin>
     </plugins>
   </build>
+  <servers>
+    <server>
+      <id>MIS09</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+    <server>
+      <id>nexus-snapshots</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+    <server>
+      <id>nexus-releases</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
 </project>
